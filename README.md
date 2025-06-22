@@ -1,4 +1,4 @@
-# 📚 eSchool Management App
+# 📚 Attendance Management 
 
 This is a **Flutter** mobile application built using **Cubit state management** and **Clean Architecture** principles.  
 The backend is developed in **Laravel** and hosted on **Hostinger**, served from a subdomain.
