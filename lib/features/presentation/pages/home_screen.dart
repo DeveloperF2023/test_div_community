@@ -4,11 +4,11 @@ import 'package:test_div_community/core/routes/app_routes.dart';
 import 'package:test_div_community/dependencies_injection.dart';
 import 'package:test_div_community/features/presentation/manager/students/get_filtered_student/get_filtered_student_cubit.dart';
 import 'package:test_div_community/features/presentation/widgets/global/widgets_imports.dart';
-import 'package:test_div_community/features/presentation/widgets/student_tile.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/utils/helper_functions.dart';
 import '../widgets/global/header_app.dart';
+import '../widgets/students/widgets_imports.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

@@ -12,7 +12,9 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/utils/helper_functions.dart';
+import '../../../domain/entities/students/filtered_student_entity.dart';
 import '../attendance/widgets_imports.dart';
+import '../global/widgets_imports.dart';
 
 part 'contact_item.dart';
 part 'detail_student_item.dart';
@@ -20,3 +22,4 @@ part 'header_profile_student_item.dart';
 part 'header_student_profile.dart';
 part 'personal_information_item.dart';
 part 'single_information_item.dart';
+part 'student_tile.dart';

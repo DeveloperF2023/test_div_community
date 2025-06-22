@@ -6,4 +6,5 @@ import 'package:test_div_community/core/utils/helper_functions.dart';
 import '../../../../core/constants/app_colors.dart';
 
 part 'circle_profile_picture.dart';
+part 'customer_shimmer.dart';
 part 'shimmer_loading.dart';

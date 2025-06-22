@@ -19,7 +19,7 @@ class LoadingCountStatusAttendance extends StatelessWidget {
         height: height,
         child: Column(
           children: [
-            CustomerShimmer(
+            LoadingCountStatusShimmer(
               height: HelperFunctions.screenHeight(context) * .1,
               width: HelperFunctions.screenWidth(context),
             ),
@@ -49,7 +49,7 @@ class LoadingHistoryAttendance extends StatelessWidget {
         height: height,
         child: Column(
           children: [
-            CustomerShimmer(
+            LoadingCountStatusShimmer(
               height: HelperFunctions.screenHeight(context) * .5,
               width: HelperFunctions.screenWidth(context),
             ),
@@ -60,10 +60,10 @@ class LoadingHistoryAttendance extends StatelessWidget {
   }
 }
 
-class CustomerShimmer extends StatelessWidget {
+class LoadingCountStatusShimmer extends StatelessWidget {
   final double? height;
   final double? width;
-  const CustomerShimmer({super.key, this.height, this.width});
+  const LoadingCountStatusShimmer({super.key, this.height, this.width});
 
   @override
   Widget build(BuildContext context) {

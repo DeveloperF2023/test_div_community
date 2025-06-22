@@ -38,11 +38,11 @@ class DetailStudentItem extends StatelessWidget {
                       shape: BoxShape.circle,
                     ),
                     child: Center(
-                      child: CircleAvatar(
-                        radius: 80,
-                        backgroundImage: NetworkImage(
-                          "${EndpointsConstants.imageUrl}${student.profilePicture}",
-                        ),
+                      child: CircleProfilePicture(
+                        imageUrl:
+                            "${EndpointsConstants.imageUrl}${student.profilePicture}",
+                        height: 160,
+                        width: 160,
                       ),
                     ),
                   ),
@@ -61,10 +61,16 @@ class DetailStudentItem extends StatelessWidget {
                           builder: (context, state) {
                             if (state
                                 is GetCountOfAttendanceForStudentLoading) {
-                              return CustomerShimmer(
-                                height:
-                                    HelperFunctions.screenHeight(context) * .1,
-                                width: HelperFunctions.screenWidth(context),
+                              return Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 10,
+                                ),
+                                child: CustomerShimmer(
+                                  height:
+                                      HelperFunctions.screenHeight(context) *
+                                      .1,
+                                  width: HelperFunctions.screenWidth(context),
+                                ),
                               );
                             } else if (state
                                 is GetCountOfAttendanceForStudentLoaded) {
