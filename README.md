@@ -49,25 +49,25 @@ The backend is developed in **Laravel** and hosted on **Hostinger**, served from
 ## 📷 App Screens
 
 ### 🏠 Home Screen
-![Home Screen](screenshots/Screenshot_20250622_185432)
+![Home Screen](screenshots/Screenshot_20250622_185432.jpg)
 
 ### 👤 Student Profile
-![Student Profile](screenshots/Screenshot_20250622_190532)
+![Student Profile](screenshots/Screenshot_20250622_190532.jpg)
 
 ### 📆 Attendance Screen
-![Create Or Update Attendance Screen](screenshots/Screenshot_20250622_185450)
+![Create Or Update Attendance Screen](screenshots/Screenshot_20250622_185450.jpg)
 
 ### 📊 Attendance Status
-![Fetch History Of Attendance With Additional Features](screenshots/Screenshot_20250622_185516)
+![Fetch History Of Attendance With Additional Features](screenshots/Screenshot_20250622_185516.jpg)
 
 ### 🖨️ Splash Screens (3 screens)
-![Splash 1](screenshots/Screenshot_20250622_185351)
-![Splash 2](screenshots/Screenshot_20250622_185405)
-![Splash 3](screenshots/Screenshot_20250622_185414)
+![Splash 1](screenshots/Screenshot_20250622_185351.jpg)
+![Splash 2](screenshots/Screenshot_20250622_185405.jpg)
+![Splash 3](screenshots/Screenshot_20250622_185414.jpg)
 
 
 ### 📊 Notification
-![Test Notification](screenshots/Screenshot_20250622_185545)
+![Test Notification](screenshots/Screenshot_20250622_185545.jpg)
 
 ## 🛠️ Tech Stack
 
